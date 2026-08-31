@@ -9,9 +9,16 @@
 
 Para publicar: `npm run build`. El resultado queda en `dist`.
 
-## Música
+## Música para la versión pública
 
-Coloca una pista sobre la que tengas autorización en `public/musica-boda.mp3`.
-La invitación funciona normalmente aunque el archivo no exista.
+La invitación publicada funciona sin audio hasta disponer de una pista autorizada.
+
+Para activarla:
+
+1. Copia el archivo autorizado como `public/audio/musica-boda.mp3`.
+2. Copia `.env.production.example` como `.env.production`.
+3. Ejecuta `npm run check` y publica los cambios.
+
+La versión local usa `.env.local` y puede conservar una pista privada que no se sube al repositorio.
 
 Antes de compartir, revisa en `src/Invitacion.jsx` los teléfonos, el lugar y los horarios.
