@@ -104,7 +104,7 @@ footer div{border-color:#b98a5088}
 .hero{position:relative;isolation:isolate;overflow:hidden}
 .foto-portada{position:absolute;z-index:-2;top:12%;left:50%;width:min(500px,78vw);height:68%;transform:translateX(-50%);border-radius:250px 250px 40px 40px;overflow:hidden;opacity:.24;filter:blur(1.5px);mask-image:linear-gradient(180deg,transparent 0,#000 18%,#000 72%,transparent 100%)}
 .foto-portada img{width:100%;height:100%;object-fit:cover;object-position:50% 50%;filter:sepia(.18) saturate(.7) contrast(.86)}
-.hero:after{content:"";position:absolute;z-index:-1;inset:0;background:radial-gradient(ellipse at center,#f2eadf18 15%,#e8ddcb66 68%,#e8ddcb 96%);pointer-events:none}
+.hero:after{content:"";position:absolute;z-index:-1;top:0;bottom:0;left:50%;width:100vw;transform:translateX(-50%);background:radial-gradient(ellipse at center,#f2eadf18 15%,#e8ddcb66 68%,#e8ddcb 96%);pointer-events:none}
 .hero>.eyebrow,.hero h1,.hero .bajar{position:relative;z-index:2;text-shadow:0 1px 12px #f2eadf}
 
 /* Código de vestimenta editorial */
