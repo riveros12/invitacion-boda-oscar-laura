@@ -145,3 +145,6 @@ footer div{border-color:#b98a5088}
 .portada-editorial img{filter:saturate(.96) contrast(1.06) sepia(.01)}
 .portada-velo{background:linear-gradient(180deg,transparent 50%,#2a100c0d 66%,#250d0bc5 100%)}
 .cierre-invitacion img{filter:saturate(.96) contrast(1.06) sepia(.01)}
+
+/* Nota de preferencias alimentarias */
+.rsvp .nota-alimentaria{color:#4a1f1f!important;font-size:14px;font-weight:600;text-wrap:pretty}.nota-alimentaria strong{color:#753b2b;font-weight:700}
